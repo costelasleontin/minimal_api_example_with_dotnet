@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/nato/Documents/CSharp/Apps and Services With NET 7/Northwind.Common.DataContext.SqlServer/Northwind.Common.DataContext.SqlServer.csproj": {}
+  },
+  "projects": {
+    "/home/nato/Documents/CSharp/Apps and Services With NET 7/Northwind.Common.DataContext.SqlServer/Northwind.Common.DataContext.SqlServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nato/Documents/CSharp/Apps and Services With NET 7/Northwind.Common.DataContext.SqlServer/Northwind.Common.DataContext.SqlServer.csproj",
+        "projectName": "Northwind.Common.DataContext.SqlServer",
+        "projectPath": "/home/nato/Documents/CSharp/Apps and Services With NET 7/Northwind.Common.DataContext.SqlServer/Northwind.Common.DataContext.SqlServer.csproj",
+        "packagesPath": "/home/nato/.nuget/packages/",
+        "outputPath": "/home/nato/Documents/CSharp/Apps and Services With NET 7/Northwind.Common.DataContext.SqlServer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nato/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/nato/Documents/CSharp/Apps and Services With NET 7/Northwind.Common.EntityModels.SqlServer/Northwind.Common.EntityModels.SqlServer.csproj": {
+                "projectPath": "/home/nato/Documents/CSharp/Apps and Services With NET 7/Northwind.Common.EntityModels.SqlServer/Northwind.Common.EntityModels.SqlServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/nato/.dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nato/Documents/CSharp/Apps and Services With NET 7/Northwind.Common.EntityModels.SqlServer/Northwind.Common.EntityModels.SqlServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nato/Documents/CSharp/Apps and Services With NET 7/Northwind.Common.EntityModels.SqlServer/Northwind.Common.EntityModels.SqlServer.csproj",
+        "projectName": "Northwind.Common.EntityModels.SqlServer",
+        "projectPath": "/home/nato/Documents/CSharp/Apps and Services With NET 7/Northwind.Common.EntityModels.SqlServer/Northwind.Common.EntityModels.SqlServer.csproj",
+        "packagesPath": "/home/nato/.nuget/packages/",
+        "outputPath": "/home/nato/Documents/CSharp/Apps and Services With NET 7/Northwind.Common.EntityModels.SqlServer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nato/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/nato/.dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
