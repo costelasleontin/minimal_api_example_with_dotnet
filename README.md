@@ -1,5 +1,5 @@
 # Minimal API example with Northwind Database and using as a starting point the minimal api project from the book "Apps and Services With NET 7"
-The example doesn't use exception handling and also doesn't implement more complex configuration in order to simplyfy the example.
+The example doesn't use exception handling and also doesn't implement more complex configuration in order to simplify the example.
 The example shows the implementation for the GET, POST, PATCH, PUT, DELETE http operations for the Products, Category and Customers tables in the Northwind sample database.
 In orther to use the example you need to configure a running instance of the Northwind database and configure the connection strings acordingly in NorthwindContextExtensions.cs.
 Minimal APIs offer a simplyfied API dotnet project that allows to faster create an Rest API (and also to create a Rest API that is a bit more performant).

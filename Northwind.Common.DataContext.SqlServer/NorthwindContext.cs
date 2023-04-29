@@ -74,7 +74,8 @@ public partial class NorthwindContext : DbContext
     {
         if (!optionsBuilder.IsConfigured)
         {
-            optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=Northwind;Integrated Security=False;TrustServerCertificate=True;User Id=SA;Password=Matraguna1!");
+            //This is implemented directlly for simplycity purposes. We would use app settings to to store connection string and we would have to store secrets in other secure places.
+            optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=Northwind;Integrated Security=False;TrustServerCertificate=True;User Id=PlaceholderForUserName;Password=ThisIsNotTheActualPassword:P!");
         }
         optionsBuilder.AddInterceptors(setLastRefreshedInterceptor);
     }
